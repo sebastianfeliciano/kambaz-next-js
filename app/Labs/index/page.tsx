@@ -3,7 +3,7 @@ export default function LabsIndex() {
  return (
    <div id="wd-labs">
      <h1>Labs</h1>
-     <p>Sebastian Feliciano</p>
+     <p>Sebastian Feliciano - Section 01</p>
      <ul>
        <li>
          <Link href="/Labs/Lab1" id="wd-lab1-link">

@@ -14,7 +14,10 @@ export default function CoursesLayout({
 
   return (
     <div id="wd-courses">
-      <table role="presentation" style={{ width: "100%", borderCollapse: "collapse" }}>
+      <table
+        role="presentation"
+        style={{ width: "100%", borderCollapse: "collapse" }}
+      >
         <tbody>
           <tr>
             {/* Top-left fixed column */}
@@ -26,7 +29,10 @@ export default function CoursesLayout({
             <td valign="top" style={{ width: "100%" }}>
               <h2>Courses {id}</h2>
               <hr />
-              <table role="presentation" style={{ width: "100%", borderCollapse: "collapse" }}>
+              <table
+                role="presentation"
+                style={{ width: "100%", borderCollapse: "collapse" }}
+              >
                 <tbody>
                   <tr>
                     <td valign="top" width="200">

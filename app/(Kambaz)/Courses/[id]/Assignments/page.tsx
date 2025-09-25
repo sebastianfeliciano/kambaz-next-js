@@ -6,7 +6,7 @@ export default function Assignments({
 }: {
   params: Promise<{ id: string }>;
 }) {
-  const { id } = use(params); 
+  const { id } = use(params);
   return (
     <div id="wd-assignments">
       <input placeholder="Search for Assignments" id="wd-search-assignment" />
@@ -19,7 +19,10 @@ export default function Assignments({
 
       <ul id="wd-assignment-list">
         <li className="wd-assignment-list-item">
-          <Link href={`/Courses/${id}/Assignments/A1`} className="wd-assignment-link">
+          <Link
+            href={`/Courses/${id}/Assignments/A1`}
+            className="wd-assignment-link"
+          >
             A1 - ENV + HTML
           </Link>
           <div>
@@ -29,7 +32,10 @@ export default function Assignments({
         </li>
 
         <li className="wd-assignment-list-item">
-          <Link href={`/Courses/${id}/Assignments/A2`} className="wd-assignment-link">
+          <Link
+            href={`/Courses/${id}/Assignments/A2`}
+            className="wd-assignment-link"
+          >
             A2 - CSS + BOOTSTRAP
           </Link>
           <div>
@@ -39,7 +45,10 @@ export default function Assignments({
         </li>
 
         <li className="wd-assignment-list-item">
-          <Link href={`/Courses/${id}/Assignments/A3`} className="wd-assignment-link">
+          <Link
+            href={`/Courses/${id}/Assignments/A3`}
+            className="wd-assignment-link"
+          >
             A3 - JAVASCRIPT + REACT
           </Link>
           <div>

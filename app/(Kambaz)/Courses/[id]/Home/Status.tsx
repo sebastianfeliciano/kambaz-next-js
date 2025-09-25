@@ -5,15 +5,17 @@ export default function CourseStatus() {
       <button>Unpublish</button>
       <button>Publish</button>
 
-      {<div className="button-group">
-        <button>Import Existing Content</button>
-        <button>Import From Commons</button>
-        <button>Choose Home Page</button>
-        <button>View Course Stream</button>
-        <button>New Announcements</button>
-        <button>New Analytics</button>
-        <button>View Course Notifications</button>
-      </div>}
+      {
+        <div className="button-group">
+          <button>Import Existing Content</button>
+          <button>Import From Commons</button>
+          <button>Choose Home Page</button>
+          <button>View Course Stream</button>
+          <button>New Announcements</button>
+          <button>New Analytics</button>
+          <button>View Course Notifications</button>
+        </div>
+      }
     </div>
   );
 }

@@ -33,7 +33,7 @@ export default function PeopleTable() {
               <span className="wd-first-name">Bruce</span>{" "}
               <span className="wd-last-name">Wayne</span>
             </td>
-            <td className="wd-login-id">0012345622S</td>
+            <td className="wd-login-id">00122345622S</td>
             <td className="wd-section">S102</td>
             <td className="wd-role">STUDENT</td>
             <td className="wd-last-activity">2020-10-02</td>

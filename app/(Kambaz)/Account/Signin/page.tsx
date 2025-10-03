@@ -22,6 +22,10 @@ export default function Signin() {
       <Link id="wd-signup-link" href="/Account/Signup">
         Sign up
       </Link>
+      <br />
+      <Link id="wd-labs-link" href="/Labs">
+        Labs
+      </Link>
     </div>
   );
 }

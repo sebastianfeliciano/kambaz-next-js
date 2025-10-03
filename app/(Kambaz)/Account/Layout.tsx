@@ -1,13 +1,22 @@
-// import { ReactNode } from "react";
-// import KambazNavigation from "./Navigation";
-// export default function KambazLayout({ children }: Readonly<{ children: ReactNode }>) {
-//  return (
-//    <table>
-//      <tbody>
-//        <tr>
-//          <td valign="top" width="200">  <KambazNavigation /> </td>
-//          <td valign="top" width="100%"> {children}           </td>
-//        </tr>
-//      </tbody>
-//    </table>
-// );}
+"use client";
+import { ReactNode } from "react";
+import { FaAlignJustify } from "react-icons/fa";
+import AccountNavigation from "./AccountNavigation";
+
+export default function AccountLayout({ children }: { children: ReactNode }) {
+  return (
+    <div id="wd-account">
+      <h2 className="text-danger">
+        <FaAlignJustify className="me-4 fs-4 mb-1" />
+        Account
+      </h2>
+      <hr />
+      <div className="d-flex">
+        <div className="d-none d-md-block">
+          <AccountNavigation id="account" />
+        </div>
+        <div className="flex-fill">{children}</div>
+      </div>
+    </div>
+  );
+}
